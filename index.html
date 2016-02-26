@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app='Portfolio'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>atlantic</title>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/stylesheets/index.css">
+		<link rel="stylesheet" href="assets/stylesheets/about.css">
+
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-resource/angular-resource.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<script src="app/app.js"></script>
+		<script src="app/factories/resourceFactory.js"></script>
+		<script src="app/controllers/aboutController.js"></script>
+		<script src="app/directives/aboutDirectives.js"></script>
+		<script src="app/directives/indexDirectives.js"></script>
+	</head>
+
+	<body>
+		
+		<navbar></navbar>
+		
+		<div ng-view></div>
+
+		<footer></footer>
+
+	</body>
+<html>
+
+

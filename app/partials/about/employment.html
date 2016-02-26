@@ -1,0 +1,11 @@
+<section id='departments' class="container">
+	<div ng-repeat='company in aboutCtrl.companies' class='department'>
+		<div class='depImg' style='background-image: url({{company.imageUrl}})'></div>
+		<div class='depContentsContainer' id='{{company.name}}'>
+			<div class='depContents'>
+				<h3>{{company.name}}</h3>
+				<p>{{company.description}}</p>
+			</div>
+		</div>
+	</div>
+</section>

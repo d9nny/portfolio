@@ -1,0 +1,10 @@
+<section id='clientsContainer'>
+	<div class='container'>
+		<h2>Our clients...</h2>
+	</div>
+		<div id='clients'>
+			<div ng-repeat='client in aboutCtrl.clients' class='client'>
+				<img ng-src="{{client.imageUrl}}">
+			</div>
+		</div>
+</section>

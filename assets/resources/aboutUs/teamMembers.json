@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tony Wheeler",
+    "imageUrl": "./../../assets/images/aboutUs/team/man.jpg",
+    "position": "Managing Director"
+  },
+  {
+    "name": "Pindi Bath",
+    "imageUrl": "./../../assets/images/aboutUs/team/woman.jpg",
+    "position": "Operations Director"
+  },
+  {
+    "name": "Andrew Criddle",
+    "imageUrl": "./../../assets/images/aboutUs/team/man.jpg",
+    "position": "Shopfit Director"
+  },
+  {
+    "name": "Oliver Stokes",
+    "imageUrl": "./../../assets/images/aboutUs/team/man.jpg",
+    "position": "Account Director"
+  },
+  {
+    "name": "Sarah Parks",
+    "imageUrl": "./../../assets/images/aboutUs/team/woman.jpg",
+    "position": "Account Director"
+  },
+  {
+    "name": "Paul Gregory",
+    "imageUrl": "./../../assets/images/aboutUs/team/man.jpg",
+    "position": "Production Manager"
+  }
+]
