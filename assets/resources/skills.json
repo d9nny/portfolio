@@ -1,0 +1,59 @@
+[
+  {
+    "imageUrl": "./../../assets/images/about/skills/ruby.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/javascript.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/jquery.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/html5.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/css.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/angular.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/rails.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/rspec.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/jasmine.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/karma.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/capybara.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/protractor.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/stackoverflow.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/github.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/git.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/balsamic.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/waffle.gif"
+  },
+    {
+    "imageUrl": "./../../assets/images/about/skills/aws.gif"
+  },
+  {
+    "imageUrl": "./../../assets/images/about/skills/api.gif"
+  }
+]

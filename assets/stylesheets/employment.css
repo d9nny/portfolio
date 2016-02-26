@@ -1,0 +1,50 @@
+#employmentContainer {
+	margin-bottom: 100px;
+}
+
+#employmentContainer h2 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#employment {
+	text-align: center;
+}
+
+.company {
+  width: 500px;
+  margin: 20px;
+  background-color: #4C4C51;
+  padding: 40px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.company:hover {
+	cursor: pointer;
+}
+
+.company h3 {
+	color: #DED6D1;
+  font-size: 30px;
+}
+
+.company h5, .company h4 {
+  color: #9BA5A7;
+}
+
+.duties {
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.duties img {
+	padding-bottom: 20px;
+}
+
+.company li {
+	text-align: left;
+	color: #DED6CD;
+	list-style-type: circle;
+}

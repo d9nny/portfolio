@@ -1,17 +1,48 @@
+portfolio.directive('contact', function() {
+	return {
+		templateUrl: 'app/partials/contact.html'
+	};
+});
+
 portfolio.directive('navbar', function() {
 	return {
-		templateUrl: 'app/partials/index/navbar.html'
+		templateUrl: 'app/partials/navbar.html'
 	};
 });
 
 portfolio.directive('socialMediaIcons', function() {
 	return {
-		templateUrl: 'app/partials/index/socialMediaIcons.html'
+		templateUrl: 'app/partials/socialMediaIcons.html'
 	};
 });
 
 portfolio.directive('footer', function() {
 	return {
-		templateUrl: 'app/partials/index/footer.html'
+		templateUrl: 'app/partials/footer.html'
 	};
 });
+
+portfolio.directive('intro', function() {
+	return {
+		templateUrl: 'app/partials/intro.html'
+	};
+});
+
+portfolio.directive('skills', function() {
+	return {
+		templateUrl: 'app/partials/skills.html'
+	};
+});
+
+portfolio.directive('education', function() {
+	return {
+		templateUrl: 'app/partials/education.html'
+	};
+});
+
+portfolio.directive('employment', function() {
+	return {
+		templateUrl: 'app/partials/employment.html'
+	};
+});
+

@@ -3,10 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>atlantic</title>
+		<title>Dan Wheeler</title>
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-		<link rel="stylesheet" href="assets/stylesheets/index.css">
-		<link rel="stylesheet" href="assets/stylesheets/about.css">
+		<link rel="stylesheet" href="assets/stylesheets/navbar.css">
+		<link rel="stylesheet" href="assets/stylesheets/intro.css">
+		<link rel="stylesheet" href="assets/stylesheets/education.css">
+		<link rel="stylesheet" href="assets/stylesheets/employment.css">
 
 		<script src="bower_components/jquery/dist/jquery.js"></script>
 		<script src="bower_components/angular/angular.js"></script>
@@ -17,18 +19,27 @@
 
 		<script src="app/app.js"></script>
 		<script src="app/factories/resourceFactory.js"></script>
-		<script src="app/controllers/aboutController.js"></script>
-		<script src="app/directives/aboutDirectives.js"></script>
+		<script src="app/controllers/indexController.js"></script>
 		<script src="app/directives/indexDirectives.js"></script>
 	</head>
 
-	<body>
+	<body ng-controller='IndexController as ctrl'>
+
+		<contact></contact>
 		
 		<navbar></navbar>
 		
-		<div ng-view></div>
+		<intro></intro>
 
-		<footer></footer>
+		<!-- <skills></skills> -->
+
+		<!-- <portfolio></portfolio> -->
+
+		<education></education>
+
+		<employment></employment>
+
+		<!-- <footer></footer> -->
 
 	</body>
 <html>
