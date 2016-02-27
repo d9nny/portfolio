@@ -1,0 +1,17 @@
+#skillsContainer {
+	text-align: center;
+	padding-bottom: 100px;
+	width: 95%;
+	margin: auto;
+}
+
+.skill {
+  display: -webkit-inline-box;
+  margin: 25px;
+}
+
+#skillsContainer  h2 {
+	margin: 100px 0 50px 20px;
+	letter-spacing: 2px;
+	text-align: left;
+}

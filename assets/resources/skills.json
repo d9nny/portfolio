@@ -1,59 +1,56 @@
 [
   {
-    "imageUrl": "./../../assets/images/about/skills/ruby.gif"
+    "imageUrl": "./../../assets/images/skills/ruby.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/javascript.gif"
+    "imageUrl": "./../../assets/images/skills/javascript.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/jquery.gif"
+    "imageUrl": "./../../assets/images/skills/jquery.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/html5.gif"
+    "imageUrl": "./../../assets/images/skills/html5.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/css.gif"
+    "imageUrl": "./../../assets/images/skills/css3.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/angular.gif"
+    "imageUrl": "./../../assets/images/skills/angularjs.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/rails.gif"
+    "imageUrl": "./../../assets/images/skills/rails.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/rspec.gif"
+    "imageUrl": "./../../assets/images/skills/rspec.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/jasmine.gif"
+    "imageUrl": "./../../assets/images/skills/jasmine.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/karma.gif"
+    "imageUrl": "./../../assets/images/skills/karma.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/capybara.gif"
+    "imageUrl": "./../../assets/images/skills/capybara.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/protractor.gif"
+    "imageUrl": "./../../assets/images/skills/protractor.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/stackoverflow.gif"
+    "imageUrl": "./../../assets/images/skills/stackoverflow.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/github.gif"
+    "imageUrl": "./../../assets/images/skills/github.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/git.gif"
+    "imageUrl": "./../../assets/images/skills/git.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/balsamic.gif"
-  },
-  {
-    "imageUrl": "./../../assets/images/about/skills/waffle.gif"
+    "imageUrl": "./../../assets/images/skills/waffle.png"
   },
     {
-    "imageUrl": "./../../assets/images/about/skills/aws.gif"
+    "imageUrl": "./../../assets/images/skills/aws.png"
   },
   {
-    "imageUrl": "./../../assets/images/about/skills/api.gif"
+    "imageUrl": "./../../assets/images/skills/illustrator.png"
   }
 ]

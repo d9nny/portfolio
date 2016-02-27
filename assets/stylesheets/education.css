@@ -50,6 +50,10 @@
 	#educationContainer  ul {
 		margin-left: 10px;
 	}
+
+	#educationContainer li {
+    width: 80%;
+	}
 }
 
 @media screen and (max-width:420px) {
