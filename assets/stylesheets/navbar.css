@@ -93,7 +93,8 @@ a.navbar-title {
   z-index: 1;
   background-size: cover;
   border: none;
-  margin: 6px 3px;
+  margin: 6px 6px;
+  cursor: pointer;
 }
 
 .socialBtn:hover {
@@ -101,15 +102,15 @@ a.navbar-title {
 }
 
 #github {
-  background-image: url('./../images/socialMedia/github.gif');
+  background-image: url('./../images/socialMedia/github.png');
 }
 
 #linkedin {
-  background-image: url('./../images/socialMedia/linkedin.gif');
+  background-image: url('./../images/socialMedia/linkedin.png');
 }
 
 #pinterest {
-  background-image: url('./../images/socialMedia/pinterest.gif');
+  background-image: url('./../images/socialMedia/pinterest.png');
 }
  
 @media screen and (max-width: 1000px) {
