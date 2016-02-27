@@ -17,14 +17,6 @@
 	margin: 150px;
 }
 
-#contact {
-
-}
-
-.contactInfo {
-
-}
-
 .contactInfo img {
 	display: inline-block;
 	height: 25px;
@@ -37,3 +29,10 @@
 	color: white;
 }
 
+@media screen and (max-width: 600px) {
+	#detailContainer {
+		display: inline-block;
+		float: right;
+		margin: 150px 0;
+	}
+}

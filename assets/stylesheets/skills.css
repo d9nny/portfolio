@@ -1,8 +1,9 @@
 #skillsContainer {
+	background-color: white;
 	text-align: center;
 	padding-bottom: 100px;
-	width: 90%;
-	margin: auto;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .skill {
