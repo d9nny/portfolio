@@ -9,7 +9,7 @@
 }
 
 body {
-  margin-top: 55px;
+  margin-top: 50px;
   color: #343535;
   font-family: domine;
 }
@@ -49,9 +49,9 @@ body {
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,  .navbar-default .navbar-nav > .open > a:active {
-    color: white;
-    background-color: #832d51;
-    top: -1px
+  color: white;
+  background-color: #832d51;
+  top: -1px
 }
 
 a.navbar-title {
@@ -75,7 +75,7 @@ a.navbar-title {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 /* Social Media Icons */
@@ -112,30 +112,41 @@ a.navbar-title {
 #pinterest {
   background-image: url('./../images/socialMedia/pinterest.png');
 }
- 
-@media screen and (max-width: 1000px) {
 
+@media screen and (max-width: 1000px) {
   #bs-example-navbar-collapse-1 {
-              width: 286px;
+    width: 286px;
     background-color: crimson;
     right: 0;
     position: absolute;
     top: 41px;
   }
   .navbar-collapse.collapse {
-      display: none !important;
+    display: none !important;
   }
   .navbar-collapse.collapse.in {
-      display: block !important;
+    display: block !important;
   }
   .navbar-header .collapse, .navbar-toggle {
-      display:block !important;
+    display:block !important;
   }
   .navbar-header {
-      float:none;
+    float:none;
   }
   #socialMediaContainer {
     top: 4px;
     right: 100px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .container-fluid > .navbar-header {
+    margin-left: 5%;
+  }
+  #socialMediaContainer {
+    right: 65px;
+  }
+  .socialBtn {
+    margin: 6px 2px;
   }
 }

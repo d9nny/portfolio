@@ -1,0 +1,13 @@
+<section id='contactContainer' class="row">
+	<div class='container'>
+		<!-- <h1>Dan Wheeler</h1> -->
+		<div id='detailContainer'>
+			<div ng-repeat='detail in ctrl.contact' class='contact'>
+				<div class='contactInfo'>
+					<img ng-src='{{detail.imageUrl}}'>
+					<h5>{{detail.info}}</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -5,6 +5,15 @@ portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFa
   self.activeTab = 0;
   self.resourceFactory = ResourceFactory;
 
+    self.resourceFactory.query("contact")
+      .then(function(response) {
+        self.contact = response.data;
+      });
+    
+    self.resourceFactory.query("portfolio")
+      .then(function(response) {
+        self.portfolio = response.data;
+      });
 
     self.resourceFactory.query('intro')
       .then(function(response) {
@@ -25,11 +34,6 @@ portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFa
       .then(function(response) {
         self.employment = response.data;
       });
-
-    // self.resourceFactory.query("portfolio")
-    //   .then(function(response) {
-    //     self.portfolio = response.data;
-    //   });
 
     self.setTab = function(num) {
       if (self.activeTab === num) {

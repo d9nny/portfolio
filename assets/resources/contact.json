@@ -1,0 +1,14 @@
+[
+  {
+    "imageUrl": "./../../assets/images/contact/address.png",
+    "info": "21 Northernhay Street, Exeter"
+  },
+  {
+    "imageUrl": "./../../assets/images/contact/email.png",
+    "info": "da-wheeler@hotmail.co.uk"
+  },
+  {
+    "imageUrl": "./../../assets/images/contact/phone.png",
+    "info": "07966 793 842"
+  }
+]

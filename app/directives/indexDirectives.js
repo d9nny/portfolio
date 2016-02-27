@@ -16,15 +16,15 @@ portfolio.directive('socialMediaIcons', function() {
 	};
 });
 
-portfolio.directive('footer', function() {
-	return {
-		templateUrl: 'app/partials/footer.html'
-	};
-});
-
 portfolio.directive('intro', function() {
 	return {
 		templateUrl: 'app/partials/intro.html'
+	};
+});
+
+portfolio.directive('portfolio', function() {
+	return {
+		templateUrl: 'app/partials/portfolio.html'
 	};
 });
 
@@ -45,4 +45,11 @@ portfolio.directive('employment', function() {
 		templateUrl: 'app/partials/employment.html'
 	};
 });
+
+portfolio.directive('footer', function() {
+	return {
+		templateUrl: 'app/partials/footer.html'
+	};
+});
+
 

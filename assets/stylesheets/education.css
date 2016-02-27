@@ -1,13 +1,12 @@
 #educationContainer {
-	background-color: #832d51; 
-	/*background-color: #C33D64;*/
+	background-color: #C33D64;
 	padding-bottom: 100px;
-	color: darkgray;
+	color: #DAD8D8;
 }
 
 #educationContainer  h2 {
 	margin: 100px 0 50px 20px;
-	color: #868A8E;
+  color: #2c3e50;
 	letter-spacing: 2px;
 }
 
@@ -28,19 +27,21 @@
 .schoolInfo > h3 {
 	position: absolute;
 	float: left;
+	color: #2c3e50;
 }
 
 .schoolInfo > h4 {
-  position: absolute;
-  right: 160px;
-  bottom: 0;
+	position: absolute;
+	right: 160px;
+	bottom: 0;
+	color: #2c3e50;
 }
 
 
 @media screen and (max-width:991px) {
 	.schoolInfo > h4, .schoolInfo > h3 {
-	  display: relative;
-	  left: 0;
+		display: relative;
+		left: 0;
 	}
 
 	.schoolInfo {
@@ -52,12 +53,12 @@
 	}
 
 	#educationContainer li {
-    width: 80%;
+		width: 80%;
 	}
 }
 
 @media screen and (max-width:420px) {
- ul.school:nth-child(3) > div {
+	ul.school:nth-child(3) > div {
 		height: 115px;
 	}
 }
