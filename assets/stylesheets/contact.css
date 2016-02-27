@@ -1,7 +1,10 @@
 #contactContainer {
-	margin-bottom: 100px;
 	background-color: #2c3e50;
-	position: relative;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	margin: 0;
+	z-index: -200;
 }
 
 #contactContainer h1 {

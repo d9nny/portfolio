@@ -1,5 +1,10 @@
+#introContainer {
+	background-color: white;
+	padding: 100px 0;
+	margin-top: 40px;
+}
+
 #intro {
-	margin: 100px auto;
 	color: #2c3e50;
 }
 
