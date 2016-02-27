@@ -35,3 +35,25 @@
   right: 160px;
   bottom: 0;
 }
+
+
+@media screen and (max-width:991px) {
+	.schoolInfo > h4, .schoolInfo > h3 {
+	  display: relative;
+	  left: 0;
+	}
+
+	.schoolInfo {
+		height: 90px;
+	}
+
+	#educationContainer  ul {
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width:420px) {
+ ul.school:nth-child(3) > div {
+		height: 115px;
+	}
+}
