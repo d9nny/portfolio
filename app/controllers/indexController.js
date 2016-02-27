@@ -26,10 +26,10 @@ portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFa
         self.employment = response.data;
       });
 
-    self.resourceFactory.query("portfolio")
-      .then(function(response) {
-        self.portfolio = response.data;
-      });
+    // self.resourceFactory.query("portfolio")
+    //   .then(function(response) {
+    //     self.portfolio = response.data;
+    //   });
 
     self.setTab = function(num) {
       if (self.activeTab === num) {

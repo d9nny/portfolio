@@ -1,18 +1,13 @@
 <section id='educationContainer' class="row">
 	<div class='container'>
 		<h2>Education</h2>
-		<div ng-repeat='school in ctrl.education' class='school col-md-6'>
-			<div class='schoolContainer'>
-				<div class='schoolContentsContainer'>
-					<div class='schoolContents'>
-						<h3>{{school.name}}</h3>
-						<h5>{{school.date}}</h5>
-						<div ng-repeat='subject in school.subjects' class='subject'>
-							<p>{{subject}}</p>
-						</div>
-					</div>
-				</div>
+		<ul ng-repeat='school in ctrl.education' class='school'>
+			<div class='schoolInfo'>
+				<h3>{{school.name}}</h3>
+				<h4>{{school.date}}</h4>
 			</div>
-		</div>
+			<ul ng-repeat='subject in school.subjects' class='subject'>
+				<li>{{subject}}</li>
+			</ul>
 	</div>
 </section>
