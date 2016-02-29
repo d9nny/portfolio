@@ -3,6 +3,7 @@
 portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFactory) {
 	var self = this;
   self.activeTab = 0;
+  this.scroll = 0;
   self.resourceFactory = ResourceFactory;
 
     self.resourceFactory.query("contact")
