@@ -71,10 +71,18 @@ a.navbar-title {
 }
 
 .normalHeader {
-    position: inherit;
-    font-size: 3em; 
-    -webkit-transform: none;
-    -moz-transform: none;
+  position: relative;
+  top: 0;
+  -webkit-transform: none;
+  -moz-transform: none;
+}
+
+.startHeader {
+  position: absolute;
+  top: -262px;
+  font-size: 100px !important;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
 }
 
 .navbar-nav {
@@ -150,11 +158,6 @@ a.navbar-title {
   #socialMediaContainer {
     right: 100px;
   }
-  a.navbar-title {
-    position: absolute;
-    top: -350px;
-    font-size: 100px;
-  }
 }
 
 @media screen and (max-width: 470px) {
@@ -167,21 +170,10 @@ a.navbar-title {
   .socialBtn {
     margin: 6px 2px;
   }
-
-  a.navbar-title {
+  .startHeader {
     position: absolute;
     top: -310px;
     font-size: 100px;
     line-height: 70px;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  a.navbar-title {
-    position: absolute;
-    top: -262px;
-    font-size: 100px;
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
   }
 }

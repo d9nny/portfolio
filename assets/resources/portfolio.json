@@ -3,7 +3,7 @@
     "title": "First fashion",
     "imageUrl": "assets/images/portfolio/fashion.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "800",
+    "parallaxInitVal": "700",
     "description": "Responsive one page application allowing users to add featured products to the basket, it calculates total price and discount. Try 'SHOEOVER75' with a pair of shoes and a basket value over £75.",
     "technologies": "HTML5, CSS3, Javascript, AngularJS (controllers, partials, services, factories, resources, routes & mocks), Karma, Protractor and Bootstrap."
   },
@@ -11,7 +11,7 @@
     "title": "atlantic (WIP)",
     "imageUrl": "assets/images/portfolio/atlantic.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "1500",
+    "parallaxInitVal": "1300",
     "description": "Responsive multiple page application showcasing a design, shopfit and print company.",
     "technologies": "HTML5, CSS3, Javascript, AngularJS (controllers, partials, factories, resources, routes & mocks) and Bootstrap."
   },
@@ -19,7 +19,7 @@
     "title": "Taste",
     "imageUrl": "assets/images/portfolio/taste.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "2200",
+    "parallaxInitVal": "1900",
     "description": "Application with user login, logged in users can create, edit and delete restaurants and comments.",
     "technologies": "Ruby, HTML5, CSS3, Rails - MVC, Devise, facebook omniauth, PostgreSQL, AWS, Rspec and Capybara."
   },
@@ -27,7 +27,7 @@
     "title": "Github User Search",
     "imageUrl": "assets/images/portfolio/githubUserSearch.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "2600",
+    "parallaxInitVal": "2300",
     "description": "Application which allows users to seach for GitHub profiles.",
     "technologies": "Javascript, HTML5, CSS3, AngularJS (controllers, factories, resources, mocks and routes), Jasmine, Karma Protractor and two API calls to GitHub."
   }
