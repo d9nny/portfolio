@@ -1,5 +1,5 @@
 #educationContainer {
-	background-color: #C33D64;
+	background-color: #67C8B7;
 	padding-bottom: 100px;
 	color: #2c3e50;
 }
@@ -36,7 +36,6 @@
 	bottom: 0;
 	color: #2c3e50;
 }
-
 
 @media screen and (max-width:991px) {
 	.schoolInfo > h4, .schoolInfo > h3 {

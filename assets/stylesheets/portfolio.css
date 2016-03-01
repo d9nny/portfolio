@@ -9,7 +9,7 @@
 }
 
 .website {
-	margin-bottom: 60px;
+	margin-bottom: 120px;
 	position: relative;
 }
 
@@ -66,5 +66,6 @@
 	}
 	.webImg {
 		height:400px;
+		background-repeat: repeat;
 	}
 }

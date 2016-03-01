@@ -1,33 +1,37 @@
 [
   {
     "title": "First fashion",
+    "url": "https://polar-plains-66246.herokuapp.com/", 
     "imageUrl": "assets/images/portfolio/fashion.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "700",
+    "parallaxInitVal": "800",
     "description": "Responsive one page application allowing users to add featured products to the basket, it calculates total price and discount. Try 'SHOEOVER75' with a pair of shoes and a basket value over £75.",
     "technologies": "HTML5, CSS3, Javascript, AngularJS (controllers, partials, services, factories, resources, routes & mocks), Karma, Protractor and Bootstrap."
   },
   {
     "title": "atlantic (WIP)",
+    "url": "https://cryptic-taiga-13132.herokuapp.com/#/aboutUs", 
     "imageUrl": "assets/images/portfolio/atlantic.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "1300",
+    "parallaxInitVal": "1500",
     "description": "Responsive multiple page application showcasing a design, shopfit and print company.",
     "technologies": "HTML5, CSS3, Javascript, AngularJS (controllers, partials, factories, resources, routes & mocks) and Bootstrap."
   },
   {
     "title": "Taste",
+    "url": "https://intense-chamber-6227.herokuapp.com/", 
     "imageUrl": "assets/images/portfolio/taste.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "1900",
+    "parallaxInitVal": "2100",
     "description": "Application with user login, logged in users can create, edit and delete restaurants and comments.",
     "technologies": "Ruby, HTML5, CSS3, Rails - MVC, Devise, facebook omniauth, PostgreSQL, AWS, Rspec and Capybara."
   },
   {
     "title": "Github User Search",
+    "url": "https://evening-eyrie-3741.herokuapp.com/", 
     "imageUrl": "assets/images/portfolio/githubUserSearch.jpg",
     "parallaxRatio": "-1",
-    "parallaxInitVal": "2300",
+    "parallaxInitVal": "2500",
     "description": "Application which allows users to seach for GitHub profiles.",
     "technologies": "Javascript, HTML5, CSS3, AngularJS (controllers, factories, resources, mocks and routes), Jasmine, Karma Protractor and two API calls to GitHub."
   }

@@ -3,7 +3,7 @@
 		<h2>Employment</h2>
 		<div id='employment'>
 			<div ng-click='ctrl.setTab(company.number)' ng-repeat='company in ctrl.employment' class='company col-md-6'>
-				<button>{{company.name}}</button>
+				<button>{{company.name}}</button><span ng-hide='ctrl.isActiveTab(company.number)' class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span><span ng-show='ctrl.isActiveTab(company.number)' class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
 				<div class='duties' ng-show='ctrl.isActiveTab(company.number)'>
 					<h5>{{company.date}}</h5>
 					<h4>{{company.position}}</h4>

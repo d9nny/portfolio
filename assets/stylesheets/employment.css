@@ -25,12 +25,20 @@
 }
 
 .company button {
-    color: #2c3e50;
-    font-size: 25px;
-    margin: 20px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  color: #2c3e50;
+  font-size: 25px;
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  float: left;
+}
+.company .glyphicon {
+	color: #2C3E50;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 .company button:focus {
@@ -46,7 +54,7 @@
 }
 
 .duties {
-	margin-top: 30px;
+	margin-top: 90px;
 	padding-bottom: 20px;
 }
 
