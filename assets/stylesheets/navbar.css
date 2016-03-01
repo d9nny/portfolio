@@ -40,19 +40,19 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #DED6D6;
+  color: white;
   letter-spacing: 2px;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
-  color: #f5f5f5;
-  background-color: #832d51;
+  color: white;
+  background-color: #C33D64;
   top: -1px;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,  .navbar-default .navbar-nav > .open > a:active {
   color: white;
-  background-color: #832d51;
+  background-color: #C33D64;
   top: -1px
 }
 
@@ -68,6 +68,13 @@ a.navbar-title {
   text-decoration: none;
   outline: none;
   font-family: qwigley;
+}
+
+.normalHeader {
+    position: inherit;
+    font-size: 3em; 
+    -webkit-transform: none;
+    -moz-transform: none;
 }
 
 .navbar-nav {
@@ -143,6 +150,11 @@ a.navbar-title {
   #socialMediaContainer {
     right: 100px;
   }
+  a.navbar-title {
+    position: absolute;
+    top: -350px;
+    font-size: 100px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -154,5 +166,22 @@ a.navbar-title {
   }
   .socialBtn {
     margin: 6px 2px;
+  }
+
+  a.navbar-title {
+    position: absolute;
+    top: -310px;
+    font-size: 100px;
+    line-height: 70px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  a.navbar-title {
+    position: absolute;
+    top: -262px;
+    font-size: 100px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
   }
 }

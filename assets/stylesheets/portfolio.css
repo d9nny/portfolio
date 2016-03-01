@@ -3,7 +3,7 @@
 }
 
 #portfolioContainer  h2 {
-	margin: 100px 0;
+	margin: 100px 20px;
 	color: white;
 	letter-spacing: 2px;
 }
@@ -18,25 +18,44 @@
 }
 
 .webImg {
- background-size: 100%;
- height:600px;
- position: relative;
- background-position: center;
- background-repeat: no-repeat;
+	background-size: 100%;
+	height:600px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .webImgContainer {
- background-color: white;
+	background-color: white;
 }
 
 .websiteInfo {
 	position: absolute;
-  top: 200px;
-  right: 0;
-  left: 0;
-  padding: 20px 10%;
-  background-color: rgba(44, 62, 80, 0.72);
-  color: white;
-  box-shadow: 1px 2px 3px rgba(0,0,0,.6);
-  height: 210px;
+	top: 200px;
+	right: 0;
+	left: 0;
+	padding: 20px 10%;
+	background-color: rgba(44, 62, 80, 0.72);
+	color: white;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.6);
+	height: 210px;
+	line-height: inherit;
+}
+
+.websiteInfo > h4 {
+	line-height: inherit;
+}
+
+@media screen and (max-width:600px) {
+	.websiteInfo {
+		position: relative;
+		top: 0;
+		height: auto;
+		background-color: #2C3E50;
+		color: white;
+		box-shadow: none;
+	}
+	.webImg {
+		height:400px;
+	}
 }
