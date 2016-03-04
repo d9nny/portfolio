@@ -1,4 +1,4 @@
-<section id='contactContainer' class="row">
+<section scroll-position="scroll" class="row scroll-debug" ng-class="{contactContainer: scroll < 400, hideContactsContainer: scroll >= 400}">
 	<div class='container'>
 		<div id='detailContainer'>
 			<div ng-repeat='detail in ctrl.contact' class='contact'>

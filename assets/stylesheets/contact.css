@@ -1,10 +1,15 @@
-#contactContainer {
+.contactContainer {
 	background-color: #2c3e50;
 	position: fixed;
 	width: 100%;
 	top: 0;
 	margin: 0;
-	z-index: -200;
+	z-index: -2000;
+	display: block;
+}
+
+.hideContactsContainer {
+	display: none;
 }
 
 #contactContainer h1 {
