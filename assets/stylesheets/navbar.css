@@ -71,7 +71,7 @@ a.navbar-title {
 }
 
 .normalHeader {
-  position: relative;
+  position: fixed;
   top: 0;
   -webkit-transform: none;
   -moz-transform: none;
