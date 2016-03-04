@@ -25,7 +25,7 @@
 }
 
 .webImg {
-	background-size: 100%;
+	background-size: 1000px;
 	height:550px;
 	position: relative;
 	background-position: center;
@@ -60,6 +60,13 @@
  	letter-spacing: 1.5px;
 }
 
+@media screen and (max-width:1120px) {
+	.webImg {
+		background-size: 700px;
+		/*background-repeat: repeat;*/
+	}
+}
+
 @media screen and (max-width:600px) {
 	.websiteInfo ul {
 		line-height: 1;
@@ -68,8 +75,9 @@
 	.websiteInfo ul {
 		padding-left: 0;
 	}
-	.webImg {
+	.webImg:nth-child(1) {
 		height:400px;
-		background-repeat: repeat;
+		background-size: 100%;
+		background-position-y: 100px;
 	}
 }
