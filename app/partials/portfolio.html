@@ -1,11 +1,11 @@
-<section id='portfolioContainer' class="row">
+<!-- <section id='portfolioContainer' class="row">
 	<div class='container'>
 		<h2>Portfolio</h2>
 		<h6>Non Commercial Projects</h6>
 	</div>
 	<div ng-repeat='website in ctrl.portfolio' class='website'>
 		<div class='webImgContainer'>
-			<div perfect-parallax parallax-ratio="{{website.parallaxRatio}}" parallax-css="background-position-y" parallax-init-val="{{website.parallaxInitVal}}" style='background-image: url({{website.imageUrl}})' class="webImg">
+			<div perfect-parallax parallax-ratio="{{website.parallaxRatio}}" parallax-css="background-position-y" parallax-init-val="{{website.parallaxInitVal}}" style="background-image: url(website.imageUrl)" class="webImg">
 			</div>
 		</div>
 		<div class='websiteInfo'>
@@ -14,4 +14,48 @@
 				<ul>{{website.technologies}}</ul>
 		</div>
 	</div>
+</section> -->
+
+<section id='portfolioContainer' class="row" >
+	<div class='container'>
+
+		<h2>Portfolio</h2>
+		<h6>Non commercial</h6>
+
+		<ul id='websiteButtons'>
+			<li ng-repeat='website in ctrl.portfolio' ng-click='ctrl.setTab(website.number)' class='websiteButton'>{{website.title}}</li>
+		</ul>
+		<div ng-repeat='website in ctrl.portfolio' class='website'>
+			<div ng-show='ctrl.isActiveTab(website.number)'>
+				<img ng-src="{{website.imageUrl}}" class="webImg">
+				<div class='websiteInfo'>
+					<h3>{{website.title}}</h3>
+					<a href="{{website.url}}">Visit Site</a>
+					<ul>{{website.description}}</ul>
+					<ul>{{website.technologies}}</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
 </section>
+
+
+<!-- 
+<section id='employmentContainer' class='row'>
+	<div class='container'>
+		<h2>Employment</h2>
+		<div id='employment'>
+			<div ng-click='ctrl.setTab(company.number)' ng-repeat='company in ctrl.employment' class='company col-md-6'>
+				<button>{{company.name}}</button><span ng-hide='ctrl.isActiveTab(company.number)' class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span><span ng-show='ctrl.isActiveTab(company.number)' class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+				<div class='duties' ng-show='ctrl.isActiveTab(company.number)'>
+					<h5>{{company.date}}</h5>
+					<h4>{{company.position}}</h4>
+					<ul ng-repeat='point in company.duties' class='point'>
+						<li>{{point}}</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->

@@ -1,21 +1,124 @@
 #portfolioContainer {
 	background-color: #2C3E50;
+	padding: 50px 0 100px;
+	text-align: center;
 }
 
 #portfolioContainer  h2 {
-	margin: 50px 0px 20px;
+	margin: 40px 20px 0px;
 	color: white;
 	letter-spacing: 2px;
 }
-
 
 #portfolioContainer  h6 {
 	margin-bottom: 40px;
 	color: white;
 	letter-spacing: 2px;
-	margin-left: 20px;
 }
 
+#websiteButtons {
+	padding-left:  0;
+}
+
+.websiteButton {
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 25%;
+  padding: 12px 0;
+  font-size: 17px;
+  background-color: #67C8B7;
+  border-left: 3px solid #2C3E50;
+  color: #2C3E50;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+ul > li.websiteButton:first-child {
+	border-left: 0;
+	border-top-left-radius: 5px; 
+}
+
+ul > li.websiteButton:last-child {
+	border-top-right-radius: 5px; 
+}
+
+.website {
+	position: relative;
+	background-color: white;
+}
+
+.website img {
+	width: auto;
+	height: 550px;
+	position: relative;
+}
+
+.websiteInfo {
+	width: 100%;
+  padding: 0 4% 10px;
+  letter-spacing: 1.5px;
+  background-color: rgba(103, 200, 183, 0.67);
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+}
+
+.websiteInfo ul {
+	line-height: 1.5;
+}
+
+.websiteInfo > ul:nth-child(2) {
+	padding-top: 20px;
+}
+
+.websiteInfo > h3 {
+	display: inline-block;
+  font-size: 24px;
+  color: #474646;
+  padding-bottom: 20px;
+}
+
+.websiteInfo > a {
+  display: inline-block;
+  margin-top: 20px;
+  float: right;
+  font-size: 18px;
+  color: #474646;
+}
+
+@media screen and (max-width:1000px) {
+	.websiteButton {
+    margin-bottom: 3px;
+    width: 50%;
+    font-size: 13px;
+	}
+	ul > li.websiteButton:first-child {
+		border-top-left-radius: 0; 
+	}
+	ul > li.websiteButton:nth-child(3) {
+		border-left: 0;
+	}
+	ul > li.websiteButton:last-child {
+		border-top-right-radius: 0; 
+	}	
+	.website img {
+		width: auto;
+		height: 300px;
+		position: relative;
+	}
+	.websiteInfo {
+		padding: 0 4% 10px;
+		font-size: 13px;
+		text-align: left;
+		position: relative;
+	}
+	#portfolioContainer {
+    padding: 50px 0;
+	}
+}
+
+
+/*
 .website {
 	position: relative;
 }
@@ -63,7 +166,7 @@
 @media screen and (max-width:1120px) {
 	.webImg {
 		background-size: 700px;
-		/*background-repeat: repeat;*/
+		background-repeat: repeat;
 	}
 }
 
@@ -80,4 +183,4 @@
 		background-size: 100%;
 		background-position-y: 100px;
 	}
-}
+}*/

@@ -133,13 +133,22 @@ a.navbar-title {
   background-image: url('./../images/socialMedia/pinterest.png');
 }
 
+
 @media screen and (max-width: 1000px) {
   #bs-example-navbar-collapse-1 {
-    width: 286px;
-    background-color: crimson;
-    right: 0;
+    width: 250px;
+    background-color: #C33D64;
+    right: 15px;
     position: absolute;
-    top: 41px;
+    top: 57px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.61);
+  }
+
+  #bs-example-navbar-collapse-1 a:hover {
+    background-color: #852D47;
   }
   .navbar-collapse.collapse {
     display: none !important;

@@ -2,7 +2,7 @@
 
 portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFactory) {
 	var self = this;
-  self.activeTab = 0;
+  self.activeTab = 31;
   this.scroll = 0;
   self.resourceFactory = ResourceFactory;
 
@@ -37,7 +37,7 @@ portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFa
       });
 
     self.setTab = function(num) {
-      if (self.activeTab === num) {
+      if (self.activeTab < 30 && self.activeTab === num) {
         self.activeTab = 0;
       } else {
         self.activeTab = num;
@@ -46,6 +46,7 @@ portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFa
 
     self.isActiveTab = function(num) {
       return (self.activeTab === num);
+      console.log(self.activeTab);
     };
 }]);
 
