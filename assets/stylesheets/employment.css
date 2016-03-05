@@ -27,17 +27,18 @@
 .company button {
   color: #2c3e50;
   font-size: 25px;
-  margin: 20px;
+  margin: 10px;
   background-color: transparent;
   border: none;
   cursor: pointer;
   float: left;
+  margin-left: 20px;
 }
 .company .glyphicon {
 	color: #2C3E50;
   font-size: 20px;
   position: absolute;
-  top: 30px;
+  top: 20px;
   right: 30px;
 }
 
@@ -74,10 +75,13 @@
 		margin: 20px auto;
 		width: 80%;
 	}
-
 	#employment {
 		width: auto;
 	}
+	.company button { 
+		float: inherit;
+	}
+
 }
 
 @media screen and (min-width:1200px) {
@@ -97,7 +101,7 @@
 		padding-right: 20px;
 		padding-left: 20px;
 	}
-		.company button { 
+	.company button { 
 		float: inherit;
 		font-size: 20px;
 		margin: 10px;

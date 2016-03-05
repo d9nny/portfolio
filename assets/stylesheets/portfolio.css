@@ -31,25 +31,27 @@
   color: #2C3E50;
   cursor: pointer;
   letter-spacing: 1px;
+  border-radius: 5px;
 }
 
 ul > li.websiteButton:first-child {
 	border-left: 0;
-	border-top-left-radius: 5px; 
-}
-
-ul > li.websiteButton:last-child {
-	border-top-right-radius: 5px; 
 }
 
 .website {
 	position: relative;
 	background-color: white;
+	border-radius: 5px;
+}
+
+.webImgContainer {
+	height: 550px;
+	overflow: auto;
+	border-radius: 5px;
 }
 
 .website img {
-	width: auto;
-	height: 550px;
+	width: 100%;
 	position: relative;
 }
 
@@ -61,6 +63,8 @@ ul > li.websiteButton:last-child {
   text-align: left;
   position: absolute;
   bottom: 0;
+  border-bottom-left-radius: 5px; 
+  border-bottom-right-radius: 5px;
 }
 
 .websiteInfo ul {
@@ -92,17 +96,10 @@ ul > li.websiteButton:last-child {
     width: 50%;
     font-size: 13px;
 	}
-	ul > li.websiteButton:first-child {
-		border-top-left-radius: 0; 
-	}
 	ul > li.websiteButton:nth-child(3) {
 		border-left: 0;
 	}
-	ul > li.websiteButton:last-child {
-		border-top-right-radius: 0; 
-	}	
-	.website img {
-		width: auto;
+	.webImgContainer {
 		height: 300px;
 		position: relative;
 	}
@@ -114,6 +111,13 @@ ul > li.websiteButton:last-child {
 	}
 	#portfolioContainer {
     padding: 50px 0;
+	}
+}
+
+@media screen and (max-width:800px) {	
+	.webImgContainer {
+		height: 450px;
+		position: relative;
 	}
 }
 

@@ -69,29 +69,6 @@ portfolio.directive('scrollPosition', function($window) {
   };
 });
 
-portfolio.directive('equalHeight', [
-  '$window', function($window) {
-    
-    return {
-      restrict: 'A',
-      link: function(scope, element) {
-        var allHeights,
-            maxHeight;
-
-        
-
-        for (var i = allHeights.length - 1; i >= 0; i--) {
-          if (allHeights[i] > allHeights[i+1]) {
-            maxHeight = allHeights[i];
-          }
-        }
-        console.log(maxHeight);
-      }
-    }
-  }
-]);
-
-
 portfolio.directive('perfectParallax', [
   '$window', function ($window) {
 
