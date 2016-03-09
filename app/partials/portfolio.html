@@ -1,22 +1,4 @@
-<!-- <section id='portfolioContainer' class="row">
-	<div class='container'>
-		<h2>Portfolio</h2>
-		<h6>Non Commercial Projects</h6>
-	</div>
-	<div ng-repeat='website in ctrl.portfolio' class='website'>
-		<div class='webImgContainer'>
-			<div perfect-parallax parallax-ratio="{{website.parallaxRatio}}" parallax-css="background-position-y" parallax-init-val="{{website.parallaxInitVal}}" style="background-image: url(website.imageUrl)" class="webImg">
-			</div>
-		</div>
-		<div class='websiteInfo'>
-				<a href="{{website.url}}">{{website.title}}</a>
-				<ul>{{website.description}}</ul>
-				<ul>{{website.technologies}}</ul>
-		</div>
-	</div>
-</section> -->
-
-<section id='portfolioContainer' class="row" >
+<!-- <section id='portfolioContainer' class="row" >
 	<div class='container'>
 
 		<h2>Portfolio</h2>
@@ -29,9 +11,10 @@
 					>{{website.title}}
 			</li>
 		</ul>
+		
 		<div ng-repeat='website in ctrl.portfolio' class='website'>
 			<div ng-show='ctrl.isActiveTab(website.number)' class='webImgContainer'>
-				<img ng-src="{{website.imageUrl}}" class="webImg">
+			<img ng-src="{{website.imageUrl}}" class="webImg">
 				<div class='websiteInfo'>
 					<h3>{{website.title}}</h3>
 					<a href="{{website.url}}">Visit Site</a>
@@ -40,6 +23,88 @@
 				</div>
 			</div>
 		</div>
+
+	</div>
+</section>
+ -->
+	
+
+<section id='portfolioContainer' class="row" >
+	<div class='container'>
+
+		<h2>Portfolio</h2>
+		<h6>Non commercial</h6>
+	</div>
+		
+		<div id='webContainer'>
+				<svg version="1.1"
+					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+					 x="0px" y="0px" viewBox="0 -5.875 458 255" enable-background="new 0 -5.875 458 255"
+					 xml:space="preserve" id='laptop'>
+				<defs>
+				</defs>
+				<path opacity="0.7" fill="#8C8C8C" enable-background="new    " d="M458,244.499c0,6.352-102.525,4.5-229,4.5
+					c-79.805,0-229,1.852-229-4.5s102.527-11.5,229-11.5C355.475,232.999,458,238.147,458,244.499z"/>
+				<path fill="#353535" d="M429,225.399c0,2.539-2.239,4.601-5,4.601H34c-2.762,0-5-2.062-5-4.601V4.6C29,2.06,31.238,0,34,0h390
+					c2.761,0,5,2.06,5,4.6V225.399z"/>
+				<path fill="#D3D3D3" d="M439,244.499H19L9,226.897c0-0.606,0.493-1.098,1.1-1.098h437.8c0.608,0,1.101,0.49,1.101,1.098L439,244.499
+					z"/>
+				<path fill="#B2B2B2" d="M255.014,232.447h-52.024l-1.239-6.207c0-0.214,0.062-0.388,0.135-0.388h54.229
+					c0.074,0,0.137,0.174,0.137,0.388L255.014,232.447z"/>
+				<path fill="#E5E5E5" stroke="#8C8C8C" stroke-width="0.25" d="M413.786,11H44.047C42.364,11,41,12.06,41,13.367V32.3
+					C41,32.302,41,32.305,41,32.308v2.359h3.046h369.739h3.047V32.3v-6.529V13.367C416.833,12.06,415.468,11,413.786,11z"/>
+				<line fill="none" stroke="#8C8C8C" stroke-width="0.25" x1="41" y1="23.833" x2="416.833" y2="23.833"/>
+				<path fill="#FCFCFC" stroke="#8C8C8C" stroke-width="0.25" d="M400.416,31.609c0,0.86-0.99,1.558-2.213,1.558H70.629
+					c-1.222,0-2.213-0.698-2.213-1.558v-4.675c0-0.86,0.991-1.559,2.213-1.559h327.574c1.223,0,2.213,0.698,2.213,1.559V31.609z"/>
+				<text transform="matrix(1 0 0 1 72.7495 31.1787)" fill="#4F4F4F" font-family="'MyriadPro-Regular'" font-size="6">https://dan-wheeler-portfolio.herokuapp.com/</text>
+				<path fill="#8E8D8D" d="M48.536,29.21h-3.174l0.567-0.85c0.012-0.018,0.014-0.037,0.019-0.055c0.002-0.006,0.003-0.011,0.005-0.017
+					c0-0.008,0.002-0.015,0.002-0.022c0.013-0.074-0.026-0.149-0.123-0.199l-0.268-0.136c-0.148-0.075-0.362-0.059-0.478,0.038
+					l-1.68,1.391c-0.061,0.051-0.08,0.113-0.065,0.172c-0.015,0.059,0.004,0.121,0.065,0.172l1.68,1.391
+					c0.116,0.096,0.33,0.113,0.478,0.037l0.268-0.136c0.104-0.052,0.143-0.136,0.121-0.214c0.003-0.033-0.002-0.067-0.024-0.099
+					l-0.541-0.811h3.147c0.287,0,0.519-0.099,0.519-0.221v-0.221C49.055,29.309,48.822,29.21,48.536,29.21z"/>
+				<path fill="#8E8D8D" d="M52.35,29.853h3.174l-0.567,0.851c-0.012,0.017-0.014,0.036-0.018,0.055
+					c-0.002,0.005-0.004,0.011-0.006,0.016c0,0.008-0.002,0.015-0.002,0.022c-0.013,0.074,0.025,0.15,0.123,0.199l0.268,0.136
+					c0.148,0.076,0.362,0.059,0.478-0.037l1.68-1.391c0.061-0.051,0.081-0.113,0.066-0.172c0.015-0.059-0.005-0.121-0.066-0.172
+					l-1.68-1.391c-0.116-0.096-0.33-0.113-0.478-0.037l-0.268,0.136c-0.104,0.052-0.143,0.136-0.12,0.214
+					c-0.003,0.033,0.002,0.066,0.024,0.099l0.541,0.81H52.35c-0.286,0-0.519,0.099-0.519,0.221v0.221
+					C51.832,29.754,52.064,29.853,52.35,29.853z"/>
+				<path fill="#8E8D8D" d="M65.7,27.93c-0.001-0.125-0.097-0.263-0.214-0.309l-0.21-0.086c-0.081-0.032-0.149-0.009-0.183,0.048
+					c-0.021,0.017-0.038,0.039-0.045,0.07l-0.165,0.628c-0.354-0.374-0.851-0.611-1.405-0.611c-1.068,0-1.938,0.869-1.938,1.938
+					s0.869,1.937,1.938,1.937c0.769,0,1.423-0.454,1.734-1.105l-0.748-0.104c-0.223,0.315-0.569,0.532-0.987,0.532
+					c-0.696,0-1.26-0.564-1.26-1.26s0.564-1.26,1.26-1.26c0.398,0,0.737,0.196,0.968,0.483l-0.748,0.132
+					c-0.017,0.003-0.028,0.012-0.041,0.02c-0.004,0.002-0.007,0.004-0.012,0.006c-0.005,0.004-0.01,0.007-0.014,0.012
+					c-0.049,0.034-0.074,0.1-0.055,0.186l0.052,0.238c0.03,0.131,0.144,0.251,0.257,0.267l0.15,0.021l0-0.002l1.494,0.206
+					c0.052,0.003,0.096-0.014,0.121-0.052c0.042-0.024,0.068-0.071,0.068-0.136L65.7,27.93z"/>
+				<circle fill="#D81A1A" cx="46.558" cy="16.934" r="1.75"/>
+				<circle fill="#4BDD4B" cx="57.921" cy="16.934" r="1.75"/>
+				<circle fill="#F2AD11" cx="52.24" cy="16.934" r="1.75"/>
+				</svg>
+
+			<div id="webImg" ng-repeat='website in ctrl.portfolio' ng-show='ctrl.isActiveTab(website.number)'>
+				<img ng-src="{{website.imageUrl}}">
+			</div>
+
+			<ul id='websiteButtons'>
+				<li ng-repeat='website in ctrl.portfolio' 
+						ng-click='ctrl.setTab(website.number)' 
+						class='websiteButton'
+						>{{website.title}}
+				</li>
+			</ul>
+			
+		</div>
+<!-- 
+		<div ng-repeat='website in ctrl.portfolio' class='website'>
+			<div ng-show='ctrl.isActiveTab(website.number)' class='webImgContainer'>
+			<img ng-src="{{website.imageUrl}}" class="webImg">
+				<div class='websiteInfo'>
+					<h3>{{website.title}}</h3>
+					<a href="{{website.url}}">Visit Site</a>
+					<ul>{{website.description}}</ul>
+					<ul>{{website.technologies}}</ul>
+				</div>
+			</div>
+		</div> -->
 
 	</div>
 </section>
