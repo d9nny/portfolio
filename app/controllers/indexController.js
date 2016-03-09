@@ -2,8 +2,9 @@
 
 portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFactory) {
 	var self = this;
-  self.activeTab = 31;
-  this.scroll = 0;
+  self.employmentTab = 0;
+  self.portfolioTab = 1;
+  self.description = 0;
   self.resourceFactory = ResourceFactory;
 
     self.resourceFactory.query("contact")
@@ -36,17 +37,40 @@ portfolio.controller('IndexController', [ 'ResourceFactory', function(ResourceFa
         self.employment = response.data;
       });
 
-    self.setTab = function(num) {
-      if (self.activeTab < 30 && self.activeTab === num) {
-        self.activeTab = 0;
+    self.setEmploymentTab = function(num) {
+      if (self.employmentTab === num) {
+        self.employmentTab = 0;
       } else {
-        self.activeTab = num;
+        self.employmentTab = num;
       }
     };
 
-    self.isActiveTab = function(num) {
-      return (self.activeTab === num);
-      console.log(self.activeTab);
+    self.isActiveEmploymentTab = function(num) {
+      return (self.employmentTab === num);
     };
+
+    self.setPortfolioTab = function(num) {
+        self.portfolioTab = num;
+    };
+
+    self.isActivePortfolioTab = function(num) {
+      return (self.portfolioTab === num);
+    };
+
+    self.setShowDescription = function(num) {
+      if (self.description === num) {
+        self.description = 0;
+      } else {
+        self.description = num;
+      }
+    }
+
+    self.descriptionButtonShow = function() {
+      return (self.description === 0);
+    }
+
+    self.activeShowDescription = function(num) {
+      return ((self.description === 1) && (self.portfolioTab === num));
+    }
 }]);
 

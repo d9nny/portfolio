@@ -1,7 +1,7 @@
 [
   {
     "title": "First fashion",
-    "number": 31,
+    "number": 1,
     "url": "https://polar-plains-66246.herokuapp.com/", 
     "imageUrl": "assets/images/portfolio/fashion.jpg",
     "parallaxRatio": "-.7",
@@ -11,7 +11,7 @@
   },
   {
     "title": "atlantic",
-    "number": 32,
+    "number": 2,
     "url": "https://cryptic-taiga-13132.herokuapp.com/#/aboutUs", 
     "imageUrl": "assets/images/portfolio/atlantic.jpg",
     "parallaxRatio": "-1.2",
@@ -21,7 +21,7 @@
   },
   {
     "title": "Taste",
-    "number": 33,
+    "number": 3,
     "url": "https://intense-chamber-6227.herokuapp.com/", 
     "imageUrl": "assets/images/portfolio/taste.jpg",
     "parallaxRatio": "-.5",
@@ -31,7 +31,7 @@
   },
   {
     "title": "Github User Search",
-    "number": 34,
+    "number": 4,
     "url": "https://evening-eyrie-3741.herokuapp.com/", 
     "imageUrl": "assets/images/portfolio/githubUserSearch.jpg",
     "parallaxRatio": "-.5",
